@@ -107,11 +107,17 @@ char * load_map(const char *filename, int *map_height, int *map_width) {
 
 }
 
+int ghostDirection(int gCounter) {//0 = left, 1 = up, 2 = down, 3 = right
+    int direction = rand() %3; //left = x-1, up = x- line, down = x + line, right = x+1
+    if
+
+}
+
 int makeGhosts () {
     FILE *file;
     file = fopen("map.txt","r");
     int gCounter = 0;
-    int
+    int counter = 0;
     char c;
 
 
@@ -125,11 +131,9 @@ int makeGhosts () {
         }
     }
     printf("%d", gCounter);
-
+    ghostDirection(gCounter);
 }
-int ghostDirection() {
 
-}
 
 
 /**
