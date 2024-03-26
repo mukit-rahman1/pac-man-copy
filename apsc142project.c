@@ -107,17 +107,24 @@ char * load_map(const char *filename, int *map_height, int *map_width) {
 
 }
 
-int makeGhosts() {
+int makeGhosts () {
+    FILE *file;
+    file = fopen("map.txt","r");
     int gCounter = 0;
-    int counter = 0;
-    int max_length = max_width * lines;
+    int
+    char c;
 
-    int index = 0;
-    while ((c/ = fgetc(file)) != EOF && index < max_width * lines) {
-        if (c != '\n') { // Skip newline characters
-            data[index++] = c;
+
+    while ((c = fgetc(file)) != EOF) {
+        if (c == 'G') {
+            gCounter++;
+            counter++;
+        }
+        else {
+            counter++;
         }
     }
+    printf("%d", gCounter);
 
 }
 int ghostDirection() {
@@ -148,7 +155,7 @@ int main(void) {
     printf("Height: %d\n", height);
     printf("Width: %d\n", width);
 
-
+    makeGhosts();
 
 
     return NO_ERROR;
