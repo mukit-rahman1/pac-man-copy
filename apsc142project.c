@@ -25,16 +25,20 @@ char *map = NULL, *dot_map = NULL;
 // width and height store the width and height of map, NOT counting outer walls
 int width, numb, height;
 FILE *mapTxt;
-
+int a = 0;
+int max_width = 0;
+int lines = 0;
 
 
 //functions
+/*
 int check_win(int pacman_y, int pacman_x, int ghosts_y[NUM_GHOSTS], int ghosts_x[NUM_GHOSTS]);
  int check_loss(int pacman_y, int pacman_x, int ghosts_y[NUM_GHOSTS], int ghosts_x[NUM_GHOSTS]);
  char sees_pacman(int pacman_y, int pacman_x, int ghost_y, int ghost_x);
  //char * load_map(char * filename, int * map_height, int *map_width);
  int is_wall(int y, int x);
  int move_actor(int * y, int * x, char direction, int eat_dots);
+ */
 
 char * load_map(const char *filename, int *map_height, int *map_width) {
     FILE *file;// Initializing variables
@@ -71,9 +75,54 @@ char * load_map(const char *filename, int *map_height, int *map_width) {
     // Update height and width
     *map_height = lines;
     *map_width = max_width;
+
+    char data[25*9 + 1]; // +1 for null terminator
+
+    // Open the file
+    file = fopen(filename, "r");
+
+    // Check if the file opened successfully
+    if (file == NULL) {
+        printf("Unable to open file %s.\n", filename);
+        return 1;
+    }
+    int index = 0;
+    while ((c = fgetc(file)) != EOF && index < max_width * lines) {
+        if (c != '\n') { // Skip newline characters
+            data[index++] = c;
+        }
+    }
+    data[max_width * lines] = '\0';
+
+    // Read data from the file into the 1D array
+    printf("Contents of the file:\n");
+    for (int i = 0; i < lines; i++) {
+        for (int j = 0; j < max_width; j++) {
+
+            printf("%c", data[a]);
+            a++;
+        }
+        printf("\n");
+    }
+
 }
 
+int makeGhosts() {
+    int gCounter = 0;
+    int counter = 0;
+    int max_length = max_width * lines;
 
+    int index = 0;
+    while ((c/ = fgetc(file)) != EOF && index < max_width * lines) {
+        if (c != '\n') { // Skip newline characters
+            data[index++] = c;
+        }
+    }
+
+}
+int ghostDirection() {
+
+}
 
 
 /**

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mukitur/Desktop/project-starter-files/Pacman
+# Install script for directory: /Users/mukitur/Desktop/Pac Man copy/pac-man-copy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug",
-		"source" : "/Users/mukitur/Desktop/project-starter-files/Pacman"
+		"build" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy/cmake-build-debug",
+		"source" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy"
 	},
 	"version" : 
 	{

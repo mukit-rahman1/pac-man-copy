@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug"
+			"value" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman"
+			"value" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1102,42 +1102,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug"
-		},
-		{
-			"name" : "Project_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman"
-		},
-		{
 			"name" : "project_BINARY_DIR",
 			"properties" : 
 			[
@@ -1147,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman/cmake-build-debug"
+			"value" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy/cmake-build-debug"
 		},
 		{
 			"name" : "project_IS_TOP_LEVEL",
@@ -1171,7 +1135,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/mukitur/Desktop/project-starter-files/Pacman"
+			"value" : "/Users/mukitur/Desktop/Pac Man copy/pac-man-copy"
 		}
 	],
 	"kind" : "cache",

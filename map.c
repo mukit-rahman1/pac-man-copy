@@ -7,7 +7,7 @@
 #include "defines.h"
 #include "colours.h"
 #include "map.h"
-
+/*
 extern char *map, *dot_map;
 extern int width, height;
 FILE *mapTxt;
@@ -24,3 +24,4 @@ int is_wall(int y, int x) {
 
     return NULL;
 }
+*/
